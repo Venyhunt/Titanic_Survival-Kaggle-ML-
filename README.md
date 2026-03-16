@@ -42,15 +42,21 @@ RandomForestClassifier
 
 Parameters:
 
-n_estimators = 300
-max_depth = 7
-min_samples_split = 5
+n_estimators = 100
+max_depth = 5
 Validation
 
 Model evaluated using train/validation split.
 
-Validation Accuracy: ~0.79
+Validation Accuracy: ~0.81
 Kaggle Score
-Public leaderboard score: 0.786
+Public leaderboard score: 0.787
 
-Top ~15% of participants.
+Top ~14% of participants.
+
+Feature Importance:
+Sex and Fare were the most important predictors of survival.
+
+How to Run
+pip install -r requirements.txt
+run notebook/titanic_solution.ipynb
